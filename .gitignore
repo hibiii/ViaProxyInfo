@@ -1,0 +1,12 @@
+# Gradle
+.gradle/
+build/
+out/
+classes/
+bin/
+
+# Java
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr

@@ -1,0 +1,5 @@
+name: "ViaProxyInfo"
+version: "1.0.0-beta.1"
+author: "hibi"
+main: "hibi.viaproxyinfo.Main"
+min-version: "3.0.22"
