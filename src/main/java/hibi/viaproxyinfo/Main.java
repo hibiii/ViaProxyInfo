@@ -38,7 +38,7 @@ public class Main extends ViaProxyPlugin {
             var json = new JsonObject();
             json.addProperty("host", addr.getHostString());
             json.addProperty("port", addr.getPort());
-            json.addProperty("remoteVersion", Options.PROTOCOL_VERSION.getVersion());
+            json.addProperty("version", Options.PROTOCOL_VERSION.getVersion());
             System.out.println("Sending proxy info packet");
             var buf = Unpooled.buffer();
             PacketTypes.writeString(buf, json.toString());
